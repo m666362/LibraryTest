@@ -3,7 +3,8 @@
     android:id="@+id/parentLL"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#000"
+    android:layout_margin="4dp"
+    android:background="#4b3ecf"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -12,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Name"
+        android:textStyle="bold|italic"
         android:textColor="#FFF" />
 
     <TextView
